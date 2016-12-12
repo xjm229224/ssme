@@ -27,6 +27,10 @@ public class Usercontroller {
 		userService.addUser(u);
 	}
 	
+	@RequestMapping(value="/login")
+	public String  login(){
+		return "login";
+	}
 	
 	
 }
